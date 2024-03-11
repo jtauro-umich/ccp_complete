@@ -1,32 +1,25 @@
 .container {
 	display: grid;
-	grid-template-columns: 25% 25% 19% 40%;
+	grid-template-columns: 32% 32% 32%;
 	align-content: center;
 	height: auto;
 }
 
 img{
-	width: 20%;
-	width: auto;
+	width: 100%;
 	border: 3px solid black;
 	border-radius: 10px;
   padding: 7px;
 	margin: 5px;
-	/* margin-left: 10% */
 }
 
-#img1 {
-  border: 3px dotted rgb(44, 83, 241);
-}
+@media screen and (min-width:768px)  { 
+	img {
+		height: auto;
+	}
 
-#img2 {
-  border: 3px dashed rgb(241, 44, 169);
-}
+	.list {
+		padding-left: 8%;
+  }
 
-#img3 {
-  border: 3px dotted rgb(87, 44, 241);
-}
-
-.list {
-	padding-left: 8%;
 }
