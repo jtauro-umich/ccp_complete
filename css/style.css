@@ -23,7 +23,14 @@ body{
 }
 
 button {
-	display: none;
+	font-family: 'Courier New', Courier, monospace;
+	border: none;
+	width: auto;
+	background-color: none;
+	text-align: center;
+	margin-right: 3vw;
+	font-size: 1em;
+	background-color: white;
 }
 
 .container {
@@ -310,7 +317,6 @@ footer p, .note {
 	}
 
 	button {
-		display: inline-block;
 		font-family: 'Courier New', Courier, monospace;
 		border: none;
 		width: auto;
