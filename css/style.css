@@ -3,6 +3,7 @@ Make the font larger too.*/
 body{
 	margin:1%;
 	font-size:125%;
+	font-family: Georgia, serif;
 }
 
 #skip a {
@@ -19,6 +20,10 @@ body{
 	top: 0;
 	padding: 10px;
 	border:1px solid #990000;
+}
+
+button {
+	display: none;
 }
 
 .container {
@@ -302,6 +307,18 @@ footer p, .note {
 	
 	#img3 {
 		border: none;
+	}
+
+	button {
+		display: inline-block;
+		font-family: 'Courier New', Courier, monospace;
+		border: none;
+		width: auto;
+		background-color: none;
+		text-align: center;
+		margin-right: 3vw;
+		font-size: 1em;
+		background-color: rgb(253, 205, 253);
 	}
 }
 
