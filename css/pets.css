@@ -17,14 +17,13 @@ img{
 	/* margin-left: 10% */
 }
 
-/* #img1 {
-  border: 3px dotted rgb(44, 83, 241);
+@media screen and (min-width:992px)  { 
+	h3 {
+		display: none;
+	}
+
+	.list {
+		display: none;
+	}
 }
 
-#img2 {
-  border: 3px dashed rgb(241, 44, 169);
-}
-
-#img3 {
-  border: 3px dotted rgb(87, 44, 241);
-} */

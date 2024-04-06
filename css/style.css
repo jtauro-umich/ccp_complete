@@ -10,14 +10,14 @@ body{
 	position: absolute;
 	left: -999px;
 	top: -999px;
-	z-index: 100;	
+	z-index: 100;
+	background: rgb(255, 255, 235);	
 }
 
 #skip a:focus {
 	left: 0;
 	top: 0;
-	padding: 3px;
-	background: #ffc;
+	padding: 10px;
 	border:1px solid #990000;
 }
 
@@ -40,6 +40,10 @@ h1{
 	text-align: left;
 	font-size: 1.5em; 
 	font-weight: bold;
+}
+
+.m-scroll {
+	display: none;
 }
 
 .active{
@@ -184,7 +188,6 @@ footer p, .note {
 	#img3 {
 		border: 3px dotted rgb(87, 44, 241);
 	}
-	
 }
 
 @media screen and (min-width:992px)  { 
@@ -209,15 +212,13 @@ footer p, .note {
 		color: black;
 	}
 
-	/* SCROLLING CSS INSPIRED BY https://codepen.io/julianofreitas/pen/BayKper */
-
 	.m-scroll {
 		display: flex;
 		position: relative;
 		width: auto;
-		height: 50px;
+		height: 60px;
 		margin: 10px auto 20px auto;
-		background-color: #efefef;
+		background-color: #faf8f8;
 		overflow: hidden;
 	}
 
@@ -258,8 +259,6 @@ footer p, .note {
 		to { transform: translateX(-100%); }
 	}
 
-	/* END SCROLLING CSS */
-
 	body {
 		background-color: black;
 		}
@@ -287,6 +286,23 @@ footer p, .note {
 	footer {
 		color: white;
 	} 
+
+	img {
+		width: 80%;
+		height: auto;
+	}
+
+	#img1 {
+		border: none;
+	}
+	
+	#img2 {
+		border: none;
+	}
+	
+	#img3 {
+		border: none;
+	}
 }
 
 @media (prefers-reduced-motion) {

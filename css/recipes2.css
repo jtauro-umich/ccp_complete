@@ -1,0 +1,35 @@
+@media screen and (min-width:992px)  { 
+  a {
+    color: white;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  img {
+    border: solid white 2px;
+    padding: 1px;
+  }
+
+  .r-grid-item {
+    background-color: black;
+  }
+
+  .smallerItem, .smallerItem1 {
+    background-color: black;
+    color: white;
+  } 
+
+  ul li {
+    list-style: none;
+  }
+
+  nav ul li a {
+    color: black !important;
+  }
+
+  #skip a {
+    color: black !important;
+  }
+}

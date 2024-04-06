@@ -21,5 +21,62 @@ img{
 	.list {
 		padding-left: 8%;
   }
+}
 
+@media screen and (min-width:992px)  { 
+	.m-scroll {
+		margin-top: 5%;
+	}
+
+	h1 {
+		margin-bottom: -10%;
+	}
+
+	@media (prefers-reduced-motion) {
+		h1 {
+			margin-bottom: auto;
+		}
+	}
+
+	h2 {
+		color: white;
+		text-align: center;
+	}
+
+	.container {
+		grid-template-columns: 33% 33% 33%;
+	}
+
+	img {
+		width: 95%;
+		margin: auto;
+		display: block;
+	}
+
+	#img1 {
+		border: 3px dotted rgb(232, 236, 255);
+	}
+	
+	#img2 {
+		border: 3px dashed rgb(250, 220, 239);
+	}
+	
+	#img3 {
+		border: 3px dotted rgb(225, 217, 255);
+	}
+
+	.headerItem {
+		background-color: black;
+		color: white;
+		font-size: 1.75vw; 
+		margin-bottom: 3%;
+	}
+
+	h3 {
+		display: none;
+	}
+
+	.list {
+		display: none;
+	}
 }

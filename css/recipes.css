@@ -89,3 +89,13 @@ img{
     grid-column: span 4;
   }
 }
+
+@media screen and (min-width:992px)  { 
+  h2 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+}
